@@ -58,7 +58,7 @@ header img {
   font-family: "Roboto", sans-serif;
   text-align: center;
   background-color: #fafafa;
-  padding: 16px;
+  padding: 16px 16px 45px 16px;
 }
 .explore .exploreTitle {
   font-weight: 500;
@@ -70,12 +70,9 @@ header img {
   margin-bottom: 30px;
 }
 .explore .exploreBtn {
-  height: 50px;
-  width: 250px;
-  padding: 12px;
+  padding: 12px 23px;
   margin-top: 20px;
-  font-size: 1rem;
-  font-weight: 600;
+  font-weight: 400;
   color: white;
   border-radius: 25px;
   border: none;
@@ -105,12 +102,12 @@ header img {
   }
 }
 .step li {
-  background-color: #f6f6f6;
+  background-color: #fafafa;
   font-weight: 500;
   padding: 20px 50px 20px 15px;
   width: 30%;
   border-radius: 1rem;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.13) 0px 2px 6px;
 }
 .step li:hover {
   background-color: #f5efff;
@@ -124,7 +121,7 @@ header img {
 }
 @media only screen and (max-width: 1092px) {
   .step li {
-    width: 95%;
+    width: 75%;
     margin: auto;
     margin-bottom: 10px;
   }
@@ -132,6 +129,7 @@ header img {
 .step .stepIcon {
   color: #777777;
   margin-right: 16px;
+  margin-left: 10px;
 }
 .step .stepNumber {
   display: flex;
