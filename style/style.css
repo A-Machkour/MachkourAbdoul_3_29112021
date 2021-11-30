@@ -10,6 +10,46 @@ body {
   margin: 0;
 }
 
+.container {
+  width: 95%;
+  margin: auto;
+}
+
+.step {
+  font-family: "Roboto", sans-serif;
+}
+.step .stepTitle {
+  font-weight: 500;
+}
+.step ol {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.step li {
+  background-color: #f6f6f6;
+  padding: 1rem 2rem;
+  border: 1px solid blue;
+  border-radius: 1rem;
+}
+
+header {
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.25);
+  position: relative;
+  z-index: 10;
+}
+header h1 {
+  font-family: "Shrikhand", sans-serif;
+}
+header .headerLogo {
+  text-align: center;
+  padding: 25px 0;
+}
+header img {
+  width: 200px;
+}
+
 .location {
   display: flex;
   justify-content: center;
@@ -58,22 +98,6 @@ body {
 .explore .exploreBtn:hover {
   transform: scale(1.03);
   transition: 0.5s;
-}
-
-header {
-  box-shadow: 0 0 16px rgba(0, 0, 0, 0.25);
-  position: relative;
-  z-index: 10;
-}
-header h1 {
-  font-family: "Shrikhand", sans-serif;
-}
-header .headerLogo {
-  text-align: center;
-  padding: 25px 0;
-}
-header img {
-  width: 200px;
 }
 
 /*# sourceMappingURL=style.css.map */
