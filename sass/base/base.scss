@@ -15,23 +15,3 @@ body {
   width: 95%;
   margin: auto;
 }
-.step {
-  font-family: "Roboto", sans-serif;
-
-  .stepTitle {
-    font-weight: 500;
-  }
-  ol {
-    //border: 1px solid blue;
-    padding: 0;
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-  }
-  li {
-    background-color: #f6f6f6;
-    padding: 1rem 2rem;
-    border: 1px solid blue;
-    border-radius: 1rem;
-  }
-}

@@ -1,0 +1,49 @@
+.step {
+  font-family: "Roboto", sans-serif;
+
+  .stepTitle {
+    font-weight: 500;
+  }
+  ol {
+    //border: 1px solid blue;
+    list-style-type: none;
+    padding: 0;
+    @include flexBetween;
+    @media only screen and (max-width: 1092px) {
+      flex-direction: column;
+    }
+  }
+  li {
+    background-color: #f6f6f6;
+    padding: 20px 50px 20px 15px;
+    //border: 1px solid blue;
+    border-radius: 1rem;
+    @include base-shadow;
+    &:hover {
+      @include scale;
+      transition: 0.5s;
+    }
+    @media only screen and (max-width: 1092px) {
+      width: 95%;
+      margin: auto;
+      margin-bottom: 10px;
+    }
+  }
+  .stepIcon {
+    color: #777777;
+    margin-right: 16px;
+  }
+  .stepNumber {
+    @include flexCenter;
+    position: absolute;
+    border-radius: 30px;
+    width: 30px;
+    height: 30px;
+    color: #ffffff;
+    background-color: #640054;
+
+    position: absolute;
+    margin-left: -40px;
+    margin-top: -5px;
+  }
+}

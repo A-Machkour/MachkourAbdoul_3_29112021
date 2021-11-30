@@ -25,10 +25,11 @@
       rgba(151, 66, 255, 0.9),
       rgba(252, 118, 214, 0.9)
     );
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  }
-  .exploreBtn:hover {
-    transform: scale(1.03);
-    transition: 0.5s;
+    //box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    @include base-shadow;
+    &:hover {
+      @include scale;
+      transition: 0.5s;
+    }
   }
 }
