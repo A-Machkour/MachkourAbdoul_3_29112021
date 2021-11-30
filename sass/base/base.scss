@@ -37,8 +37,30 @@ body {
   padding: 16px;
   .exploreTitle {
     font-weight: 500;
+    font-size: 1.7rem;
   }
   .exploreSubtitle {
     font-weight: 300;
+    font-size: 1rem;
+  }
+  .exploreBtn {
+    height: 50px;
+    width: 250px;
+    margin-top: 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    background-image: linear-gradient(
+      0,
+      rgba(151, 66, 255, 0.9),
+      rgba(252, 118, 214, 0.9)
+    );
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .exploreBtn:hover {
+    transform: scale(1.03);
+    transition: 0.5s;
   }
 }
