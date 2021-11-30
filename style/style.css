@@ -29,6 +29,19 @@ body {
   font-size: 20px;
 }
 
+.explore {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  background-color: #fafafa;
+  padding: 16px;
+}
+.explore .exploreTitle {
+  font-weight: 500;
+}
+.explore .exploreSubtitle {
+  font-weight: 300;
+}
+
 header {
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.25);
   position: relative;
