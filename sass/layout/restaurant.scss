@@ -1,0 +1,42 @@
+.restaurant {
+  background-color: #fafafa;
+  font-family: "Roboto", sans-serif;
+
+  .restaurantTitle {
+    font-weight: 500;
+    margin-bottom: 12px;
+  }
+  .cardTemplate {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 50px;
+
+    .card {
+      //border: 1px blue solid;
+      //height: 20px;
+      width: 43%;
+      border-radius: 20px;
+      box-shadow: 0 0 10px rgb(115 115 115 / 50%);
+      background-color: white;
+    }
+    .cardImage {
+      height: 120px;
+      width: 100%;
+      border-radius: 20px 20px 0 0;
+      object-fit: cover;
+      margin: 0;
+      padding: 0;
+    }
+    .cardDetails {
+      padding: 15px;
+      .cardTitle {
+        margin: 0;
+      }
+      .cardSubtitle {
+        margin: 0;
+      }
+    }
+  }
+}

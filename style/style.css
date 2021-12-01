@@ -8,6 +8,7 @@
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 body {
@@ -144,6 +145,45 @@ header img {
   position: absolute;
   margin-left: -38px;
   margin-top: -5px;
+}
+
+.restaurant {
+  background-color: #fafafa;
+  font-family: "Roboto", sans-serif;
+}
+.restaurant .restaurantTitle {
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+.restaurant .cardTemplate {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.restaurant .cardTemplate .card {
+  width: 43%;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(115, 115, 115, 0.5);
+  background-color: white;
+}
+.restaurant .cardTemplate .cardImage {
+  height: 120px;
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+}
+.restaurant .cardTemplate .cardDetails {
+  padding: 15px;
+}
+.restaurant .cardTemplate .cardDetails .cardTitle {
+  margin: 0;
+}
+.restaurant .cardTemplate .cardDetails .cardSubtitle {
+  margin: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
