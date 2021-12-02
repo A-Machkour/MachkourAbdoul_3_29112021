@@ -10,6 +10,7 @@ footer {
     font-weight: 400;
     font-size: 20px;
     color: white;
+    margin-bottom: 0;
   }
   .sizeFooter {
     height: 200px;
@@ -21,11 +22,12 @@ footer {
 
     & ul {
       list-style-type: none;
-      margin: 0;
       padding: 0;
+      & li {
+        margin: 4px 0;
+      }
       & .footerLink {
         color: white;
-        margin: px 0;
       }
     }
   }

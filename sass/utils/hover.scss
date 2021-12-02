@@ -1,6 +1,14 @@
 @mixin scale {
   transform: scale(1.02);
 }
-@mixin scale_08 {
+@mixin scale_13 {
   transform: scale(1.3);
+}
+
+@mixin scale_15 {
+  transform: scale(1.5);
+}
+
+@mixin scale_115 {
+  transform: scale(1.15);
 }
