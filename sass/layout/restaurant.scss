@@ -1,21 +1,20 @@
 .restaurant {
   background-color: #fafafa;
   font-family: "Roboto", sans-serif;
+  padding: 30px 0 55px 0;
 
   .restaurantTitle {
     font-weight: 500;
-    margin-bottom: 12px;
+    margin-bottom: 25px;
   }
   .cardTemplate {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 30px;
 
     .card {
-      //border: 1px blue solid;
-      //height: 20px;
       width: 43%;
       border-radius: 20px;
       box-shadow: 0 0 10px rgb(115 115 115 / 50%);
@@ -29,13 +28,30 @@
       margin: 0;
       padding: 0;
     }
+    .cardBadgeNew {
+      background-color: rgb(153, 226, 208);
+      color: rgb(11, 141, 109);
+      font-weight: 500;
+      position: absolute;
+      padding: 6px 12px;
+      margin-left: -105px;
+      margin-top: 12px;
+      border-radius: 2px;
+    }
     .cardDetails {
       padding: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
       .cardTitle {
+        font-weight: 500;
         margin: 0;
       }
       .cardSubtitle {
         margin: 0;
+      }
+      .cardHeart i {
+        font-size: 25px;
       }
     }
   }

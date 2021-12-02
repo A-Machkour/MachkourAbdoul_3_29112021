@@ -150,17 +150,18 @@ header img {
 .restaurant {
   background-color: #fafafa;
   font-family: "Roboto", sans-serif;
+  padding: 30px 0 55px 0;
 }
 .restaurant .restaurantTitle {
   font-weight: 500;
-  margin-bottom: 12px;
+  margin-bottom: 25px;
 }
 .restaurant .cardTemplate {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
-  gap: 50px;
+  gap: 30px;
 }
 .restaurant .cardTemplate .card {
   width: 43%;
@@ -176,14 +177,62 @@ header img {
   margin: 0;
   padding: 0;
 }
+.restaurant .cardTemplate .cardBadgeNew {
+  background-color: #99e2d0;
+  color: #0b8d6d;
+  font-weight: 500;
+  position: absolute;
+  padding: 6px 12px;
+  margin-left: -105px;
+  margin-top: 12px;
+  border-radius: 2px;
+}
 .restaurant .cardTemplate .cardDetails {
   padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .restaurant .cardTemplate .cardDetails .cardTitle {
+  font-weight: 500;
   margin: 0;
 }
 .restaurant .cardTemplate .cardDetails .cardSubtitle {
   margin: 0;
+}
+.restaurant .cardTemplate .cardDetails .cardHeart i {
+  font-size: 25px;
+}
+
+.bgDarkGrey {
+  background-color: #353535;
+}
+
+footer {
+  font-family: "Roboto", sans-serif;
+}
+footer .footerLogo {
+  font-family: "Shrikhand", cursive;
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+}
+footer .sizeFooter {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+footer .footerList {
+  margin: 0;
+}
+footer .footerList ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+footer .footerList ul .footerLink {
+  color: white;
+  margin: px 0;
 }
 
 /*# sourceMappingURL=style.css.map */

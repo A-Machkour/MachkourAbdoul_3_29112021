@@ -1,0 +1,32 @@
+.bgDarkGrey {
+  background-color: rgb(53, 53, 53);
+}
+
+footer {
+  font-family: "Roboto", sans-serif;
+
+  & .footerLogo {
+    font-family: "Shrikhand", cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+  }
+  .sizeFooter {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+  }
+  .footerList {
+    margin: 0;
+
+    & ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      & .footerLink {
+        color: white;
+        margin: px 0;
+      }
+    }
+  }
+}
