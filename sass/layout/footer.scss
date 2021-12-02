@@ -13,7 +13,7 @@ footer {
     margin-bottom: 0;
   }
   .sizeFooter {
-    height: 200px;
+    height: 175px;
     display: flex;
     flex-direction: column;
   }
@@ -25,6 +25,9 @@ footer {
       padding: 0;
       & li {
         margin: 4px 0;
+        & i {
+          margin-right: 7px;
+        }
       }
       & .footerLink {
         color: white;
