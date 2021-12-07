@@ -12,3 +12,15 @@
 @mixin scale_115 {
   transform: scale(1.15);
 }
+
+@mixin heartAnimation {
+  opacity: 1;
+  animation: slide-in-fwd-center 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  transition-duration: 1s;
+  background-image: linear-gradient(rgb(186, 102, 255), rgb(231, 136, 225));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}

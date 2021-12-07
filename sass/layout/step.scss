@@ -1,11 +1,11 @@
 .step {
   font-family: "Roboto", sans-serif;
+  margin-bottom: 40px;
 
   .stepTitle {
     font-weight: 500;
   }
   ol {
-    //border: 1px solid blue;
     list-style-type: none;
     padding: 0;
     @include flexBetween;
@@ -18,7 +18,7 @@
     font-weight: 500;
     padding: 20px 50px 20px 15px;
     width: 30%;
-    border-radius: 1rem;
+    border-radius: 16px;
     @include shadowLow;
 
     &:hover {

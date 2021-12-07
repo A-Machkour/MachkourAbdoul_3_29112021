@@ -14,4 +14,17 @@ header {
   @include base-shadow;
   position: relative;
   z-index: 10;
+
+  .returnIcon {
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 15px;
+    font-size: 18px;
+  }
+  .headerMenuLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+  }
 }
