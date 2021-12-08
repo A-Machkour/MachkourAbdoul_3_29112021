@@ -2,7 +2,7 @@
   font-family: "Roboto", sans-serif;
   text-align: center;
   background-color: #fafafa;
-  padding: 16px 16px 45px 16px;
+  padding: 16px 16px 75px 16px;
   .exploreTitle {
     font-weight: 500;
     font-size: 1.7rem;
@@ -17,19 +17,14 @@
     margin-top: 20px;
     font-weight: 400;
     color: white;
-
+    cursor: pointer;
     border-radius: 25px;
-    border: none;
-    background-image: linear-gradient(
-      0,
-      rgba(151, 66, 255, 0.9),
-      rgba(252, 118, 214, 0.9)
-    );
-    //box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-image: linear-gradient(0, $primary-color, $secondary-color);
     @include base-shadow;
+    transition-duration: 0.75s;
     &:hover {
-      @include scale;
-      transition: 0.5s;
+      opacity: 0.85;
+      @include base-shadow2;
     }
   }
 }

@@ -5,3 +5,7 @@
 @mixin shadowLow {
   box-shadow: rgba(0, 0, 0, 0.13) 0px 2px 6px;
 }
+
+@mixin base-shadow2 {
+  box-shadow: rgba(0, 0, 0, 0.55) 0px 3px 8px;
+}

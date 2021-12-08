@@ -1,6 +1,7 @@
 .step {
   font-family: "Roboto", sans-serif;
   margin-bottom: 40px;
+  margin-top: 40px;
 
   .stepTitle {
     font-weight: 500;
@@ -16,9 +17,10 @@
   li {
     background-color: #fafafa;
     font-weight: 500;
-    padding: 20px 50px 20px 15px;
+    padding: 20px 0 20px 15px;
     width: 30%;
     border-radius: 16px;
+    white-space: nowrap;
     @include shadowLow;
 
     &:hover {
@@ -29,12 +31,15 @@
       transition: 0.5s;
     }
     &:hover > .stepIcon {
-      color: #9356dc;
+      color: $primary-color;
     }
     @media only screen and (max-width: 1092px) {
       width: 75%;
       margin: auto;
-      margin-bottom: 10px;
+      margin-bottom: 22px;
+    }
+    @media only screen and (max-width: 768px) {
+      width: 92%;
     }
   }
   .stepIcon {
@@ -49,7 +54,7 @@
     width: 30px;
     height: 30px;
     color: #ffffff;
-    background-color: #9356dc;
+    background-color: $primary-color;
     position: absolute;
     margin-left: -38px;
     margin-top: -5px;
