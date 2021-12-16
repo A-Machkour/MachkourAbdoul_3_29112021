@@ -444,10 +444,11 @@ footer .footerList ul .footerLink {
 .menu .menuTitle {
   font-family: "Shrikhand", cursive;
 }
+.menu .menuHeart {
+  transition-duration: 1000ms;
+}
 .menu .menuHeart i {
   font-size: 25px;
-  transition-delay: 350ms;
-  transition-property: opacity;
 }
 .menu .menuHeart .heartR {
   position: absolute;
@@ -455,20 +456,21 @@ footer .footerList ul .footerLink {
 }
 .menu .menuHeart .heartS {
   color: transparent;
-  opacity: 0;
+}
+.menu .menuHeart:hover > .heartS {
+  opacity: 1;
+  animation: slide-in-fwd-center 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  transition-duration: 1s;
   background-image: linear-gradient(#ba66ff, #e788e1);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
-  transition: all 1s ease;
-}
-.menu .menuHeart:hover > .heartS {
-  opacity: 1;
 }
 .menu .menuHeart:hover > .heartR {
   opacity: 0;
+  transition-duration: 200ms;
 }
 .menu .categoryTitle {
   font-family: "Roboto", sans-serif;
@@ -508,6 +510,9 @@ footer .footerList ul .footerLink {
 }
 .menu .itemAnimationDelay9 {
   animation-delay: 900ms !important;
+}
+.menu .itemAnimationDelay10 {
+  animation-delay: 1000ms !important;
 }
 .menu .CategoryItem {
   animation: itemAppear 0.6s;
@@ -587,7 +592,7 @@ footer .footerList ul .footerLink {
   justify-content: center;
   align-items: center;
   background-color: #e6e6e6;
-  height: 150px;
+  padding-bottom: 70px;
 }
 
 .orderBtn {
@@ -597,12 +602,13 @@ footer .footerList ul .footerLink {
   color: white;
   border-radius: 25px;
   border: none;
-  background-image: linear-gradient(0, rgba(151, 66, 255, 0.9), rgba(252, 118, 214, 0.9));
+  cursor: pointer;
+  background-image: linear-gradient(0, #9356dc, #ff79da);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: 0.5s;
 }
 .orderBtn:hover {
   transform: scale(1.02);
-  transition: 0.5s;
 }
 
 /*# sourceMappingURL=style.css.map */
