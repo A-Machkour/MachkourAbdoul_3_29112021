@@ -2,10 +2,11 @@
   display: flex;
   justify-content: center;
   padding: 1.25rem 1rem;
+  color: $text-grey-color;
   background-color: $bg-grey-color;
   position: relative;
   .localIcon {
-    margin-right: 10px;
+    margin-right: 25px;
     font-size: 20px;
     font-weight: 700;
   }
