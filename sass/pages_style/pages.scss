@@ -36,6 +36,14 @@
       min-width: 100%;
     }
   }
+  @media screen and (max-width: 400px) {
+    display: inherit;
+    & .menuFirstCategory,
+    .menuSecondCategory,
+    .menuThirdCategory {
+      max-width: 98%;
+    }
+  }
 }
 
 .menu {
@@ -152,9 +160,9 @@
         align-items: center;
         margin-right: -65px;
         width: 65px;
-        transition: all 1000ms;
+        transition: all 650ms;
         .checkIcon {
-          transition: all 1000ms;
+          transition: all 650ms;
         }
       }
     }

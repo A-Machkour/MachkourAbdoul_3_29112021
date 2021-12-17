@@ -552,6 +552,16 @@ footer .footerList ul .footerLink {
     min-width: 100%;
   }
 }
+@media screen and (max-width: 400px) {
+  .menuCategory {
+    display: inherit;
+  }
+  .menuCategory .menuFirstCategory,
+.menuCategory .menuSecondCategory,
+.menuCategory .menuThirdCategory {
+    max-width: 98%;
+  }
+}
 
 .menu {
   background-color: #e6e6e6;
@@ -701,10 +711,10 @@ footer .footerList ul .footerLink {
   align-items: center;
   margin-right: -65px;
   width: 65px;
-  transition: all 1000ms;
+  transition: all 650ms;
 }
 .menu .CategoryItem .item .checkAnim .checkIcon {
-  transition: all 1000ms;
+  transition: all 650ms;
 }
 
 .btnContainer {
