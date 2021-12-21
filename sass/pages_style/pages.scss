@@ -21,6 +21,7 @@
   .menuThirdCategory {
     width: 400px;
   }
+
   @media screen and (max-width: 1500px) {
     & .menuFirstCategory,
     .menuSecondCategory,
@@ -47,7 +48,7 @@
 }
 
 .menu {
-  background-color: #e6e6e6;
+  background-color: $bg-light-grey-color;
   border-radius: 40px 40px 0 0;
   margin-top: -90px;
   z-index: 10;
@@ -80,7 +81,6 @@
     }
   }
   .categoryTitle {
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
     text-transform: uppercase;
   }
@@ -167,6 +167,9 @@
       }
     }
   }
+  .firstItemMargin {
+    margin-top: 25px;
+  }
 }
 .btnContainer {
   width: 90%;
@@ -176,7 +179,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #e6e6e6;
+  background-color: $bg-light-grey-color;
 
   padding-bottom: 70px;
 }
@@ -192,6 +195,7 @@
   @include base-shadow;
   transition: 0.5s;
   &:hover {
-    @include scale;
+    opacity: 0.85;
+    @include base-shadow2;
   }
 }

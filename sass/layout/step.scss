@@ -1,5 +1,4 @@
 .step {
-  font-family: "Roboto", sans-serif;
   margin-bottom: 40px;
   margin-top: 40px;
 
@@ -15,7 +14,7 @@
     }
   }
   li {
-    background-color: #fafafa;
+    background-color: $bg-light-grey-color;
     font-weight: 500;
     padding: 20px 0 20px 15px;
     width: 30%;
@@ -24,7 +23,7 @@
     @include shadowLow;
 
     &:hover {
-      background-color: #f5efff;
+      background-color: #faecff;
     }
     &:hover > .stepNumber {
       @include scale_13;
