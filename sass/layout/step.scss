@@ -46,6 +46,8 @@
     margin-right: 16px;
     margin-left: 10px;
   }
+
+  /*Cercle avec le chiffre en position absolute*/
   .stepNumber {
     @include flexCenter;
     position: absolute;

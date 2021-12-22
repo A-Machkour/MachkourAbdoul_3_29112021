@@ -39,9 +39,7 @@
     }
     .cardDetails {
       padding: 15px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+      @include flexBetweenCenter;
       .cardTitle {
         font-weight: 500;
         margin: 0 0 5px 0;

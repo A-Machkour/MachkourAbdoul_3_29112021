@@ -92,6 +92,7 @@
     margin-top: -11px;
   }
 
+  /*Boucle qui ajoute un delai a chaque iteration sur la classe en question*/
   @for $i from 1 to 11 {
     .itemAnimationDelay#{$i} {
       animation-delay: #{$i}+ "00ms" !important;
@@ -142,8 +143,7 @@
         }
       }
       .itemAlign {
-        display: flex;
-        justify-content: space-between;
+        @include flexBetween;
       }
       .itemPrice {
         font-weight: 700;
@@ -155,9 +155,7 @@
         background-color: #99e2d0;
         color: white;
         font-size: 25px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flexCenter;
         margin-right: -65px;
         width: 65px;
         transition: all 650ms;

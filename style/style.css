@@ -151,6 +151,7 @@ body {
   margin: -4px 0 0 -4px;
 }
 
+/*Delai de disparition entre chaque point */
 .lds-roller div:nth-child(1) {
   animation-delay: -0.036s;
 }
@@ -254,8 +255,8 @@ header .returnIcon {
 }
 header .headerMenuLogo {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   padding: 20px 0;
 }
 
@@ -310,6 +311,7 @@ header .headerMenuLogo {
 .step {
   margin-bottom: 40px;
   margin-top: 40px;
+  /*Cercle avec le chiffre en position absolute*/
 }
 .step .stepTitle {
   font-weight: 500;
@@ -567,6 +569,7 @@ footer .footerList ul .footerLink {
   z-index: 10;
   padding: 20px;
   position: relative;
+  /*Boucle qui ajoute un delai a chaque iteration sur la classe en question*/
 }
 .menu .menuTitleFlex {
   display: flex;
@@ -703,8 +706,8 @@ footer .footerList ul .footerLink {
   color: white;
   font-size: 25px;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   margin-right: -65px;
   width: 65px;
   transition: all 650ms;
