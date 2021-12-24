@@ -75,7 +75,7 @@
     transform: rotate(0deg);
   }
 }
-
+/*TranslateY qui permet d'avoir une translation par rapport a son pourcentage*/
 @keyframes itemAppear {
   0% {
     transform: translateY(25%);
