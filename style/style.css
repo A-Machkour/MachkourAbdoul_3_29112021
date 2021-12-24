@@ -100,10 +100,12 @@ body {
 }
 @keyframes itemAppear {
   0% {
-    transform: scale(0);
+    transform: translateY(25%);
+    opacity: 0;
   }
   100% {
-    transform: scale(1);
+    transform: translateY(0%);
+    opacity: 1;
   }
 }
 .loaderSize {
@@ -649,7 +651,7 @@ footer .footerList ul .footerLink {
   animation-delay: 1000ms !important;
 }
 .menu .CategoryItem {
-  animation: itemAppear 0.6s;
+  animation: itemAppear 0.8s;
   animation-fill-mode: both;
   transform: scale(0);
   border-radius: 13px;
